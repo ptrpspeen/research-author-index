@@ -1,0 +1,24 @@
+{
+  "name": "research-author-index",
+  "version": "0.1.7",
+  "description": "ค้น Scopus ด้วย Computer Use และ Export CSV; รวม ThaiJO/TCI ลง Excel พร้อมตรวจตัวตน จำนวนรายการ และหลักฐาน Q/Tier",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Research Author Index",
+    "shortDescription": "ใช้ Computer Use ส่งออก Scopus CSV และค้น ThaiJO/TCI ลง Excel",
+    "longDescription": "เริ่มทุกงานด้วยการเปิด Scopus ให้ผู้ใช้เห็นผ่าน Chrome ที่เชื่อมไว้หรือ Codex Browser หากยังไม่ล็อกอินต้องแจ้งและรอผู้ใช้ Login ก่อนเริ่มงาน ตรวจชื่อและหน่วยงานก่อนเก็บข้อมูล Scopus ใช้ UI และ Playwright ที่เบราว์เซอร์รองรับเพื่อรับไฟล์ CSV ตามสิทธิ์ผู้ใช้ ThaiJO ใช้สคริปต์อ่านหน้าสาธารณะแบบชุดและเบราว์เซอร์เติมหน้าที่ยังขาด ตรวจจำนวนและข้อมูลซ้ำก่อนอ้างว่าครบ ตรวจ Q ตามปีและสาขา เก็บหลักฐาน Tier จาก About/ประกาศ/เอกสารและภาพตรา แยก Tier ในปีตีพิมพ์จาก Tier ปัจจุบัน พร้อมช่วงปีและวันที่ตรวจ แล้วสร้าง Excel สองชีตพร้อมลิงก์และข้อจำกัดที่ยังยืนยันไม่ได้",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "ค้นผลงานนักวิจัยจาก Scopus ผ่าน Computer Use และ ThaiJO/TCI ตรวจตัวตน จำนวนเอกสาร ปีและหลักฐาน Q/Tier แล้วทำ Excel สองชีต",
+      "ตรวจ Q และ Tier ของผลงานนักวิจัย พร้อมลิงก์บทความ"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+.env
+.env.*
+dist/
+*.xlsx
+*.csv
+profile-payload.json
+tier-evidence/
+tci-badges/

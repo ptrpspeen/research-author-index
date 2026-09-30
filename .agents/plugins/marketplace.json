@@ -1,0 +1,20 @@
+{
+  "name": "research-author-index-pack",
+  "interface": {
+    "displayName": "Research Author Index Pack"
+  },
+  "plugins": [
+    {
+      "name": "research-author-index",
+      "source": {
+        "source": "local",
+        "path": "./plugins/research-author-index"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
